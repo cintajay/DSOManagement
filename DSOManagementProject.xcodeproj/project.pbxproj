@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AC8AC6AE7EE5D5E0750B584 /* Pods_DSOManagementProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8857E62ACCB3C68C85B01E66 /* Pods_DSOManagementProject.framework */; };
 		AC9C2A792921FDFC001FB662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C2A782921FDFC001FB662 /* AppDelegate.swift */; };
 		AC9C2A7B2921FDFC001FB662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C2A7A2921FDFC001FB662 /* SceneDelegate.swift */; };
-		AC9C2A7D2921FDFC001FB662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C2A7C2921FDFC001FB662 /* ViewController.swift */; };
+		AC9C2A7D2921FDFC001FB662 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C2A7C2921FDFC001FB662 /* LoginViewController.swift */; };
 		AC9C2A802921FDFC001FB662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9C2A7E2921FDFC001FB662 /* Main.storyboard */; };
 		AC9C2A832921FDFC001FB662 /* DSOManagementProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC9C2A812921FDFC001FB662 /* DSOManagementProject.xcdatamodeld */; };
-		AC9C2A852921FDFE001FB662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9C2A842921FDFE001FB662 /* Assets.xcassets */; };
 		AC9C2A882921FDFE001FB662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9C2A862921FDFE001FB662 /* LaunchScreen.storyboard */; };
+		ACB3C66E29235EFC00CAF985 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C66D29235EFC00CAF985 /* LoginModel.swift */; };
+		ACB3C6712923741E00CAF985 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C6702923741E00CAF985 /* ResponseModel.swift */; };
+		ACE9D3822922171900C39F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE9D3812922171900C39F66 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09B4E42D8B6F84932CF765EF /* Pods-DSOManagementProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSOManagementProject.release.xcconfig"; path = "Target Support Files/Pods-DSOManagementProject/Pods-DSOManagementProject.release.xcconfig"; sourceTree = "<group>"; };
+		8857E62ACCB3C68C85B01E66 /* Pods_DSOManagementProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSOManagementProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B1D5E77E9EAC75B9B63FF1 /* Pods-DSOManagementProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSOManagementProject.debug.xcconfig"; path = "Target Support Files/Pods-DSOManagementProject/Pods-DSOManagementProject.debug.xcconfig"; sourceTree = "<group>"; };
 		AC9C2A752921FDFC001FB662 /* DSOManagementProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSOManagementProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9C2A782921FDFC001FB662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9C2A7A2921FDFC001FB662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC9C2A7C2921FDFC001FB662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC9C2A7C2921FDFC001FB662 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AC9C2A7F2921FDFC001FB662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC9C2A822921FDFC001FB662 /* DSOManagementProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DSOManagementProject.xcdatamodel; sourceTree = "<group>"; };
-		AC9C2A842921FDFE001FB662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9C2A872921FDFE001FB662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9C2A892921FDFE001FB662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB3C66D29235EFC00CAF985 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		ACB3C6702923741E00CAF985 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		ACE9D3812922171900C39F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Training Cinta/Test2/Test2/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC8AC6AE7EE5D5E0750B584 /* Pods_DSOManagementProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EB13DFD41A31488C5B57D74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8857E62ACCB3C68C85B01E66 /* Pods_DSOManagementProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA3146D28B7D6A49CF24D9FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95B1D5E77E9EAC75B9B63FF1 /* Pods-DSOManagementProject.debug.xcconfig */,
+				09B4E42D8B6F84932CF765EF /* Pods-DSOManagementProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AC9C2A6C2921FDFC001FB662 = {
 			isa = PBXGroup;
 			children = (
 				AC9C2A772921FDFC001FB662 /* DSOManagementProject */,
 				AC9C2A762921FDFC001FB662 /* Products */,
+				AA3146D28B7D6A49CF24D9FC /* Pods */,
+				0EB13DFD41A31488C5B57D74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +88,24 @@
 			children = (
 				AC9C2A782921FDFC001FB662 /* AppDelegate.swift */,
 				AC9C2A7A2921FDFC001FB662 /* SceneDelegate.swift */,
-				AC9C2A7C2921FDFC001FB662 /* ViewController.swift */,
+				AC9C2A7C2921FDFC001FB662 /* LoginViewController.swift */,
 				AC9C2A7E2921FDFC001FB662 /* Main.storyboard */,
-				AC9C2A842921FDFE001FB662 /* Assets.xcassets */,
 				AC9C2A862921FDFE001FB662 /* LaunchScreen.storyboard */,
 				AC9C2A892921FDFE001FB662 /* Info.plist */,
 				AC9C2A812921FDFC001FB662 /* DSOManagementProject.xcdatamodeld */,
+				ACE9D3812922171900C39F66 /* Assets.xcassets */,
+				ACB3C66F2923740500CAF985 /* Models */,
 			);
 			path = DSOManagementProject;
+			sourceTree = "<group>";
+		};
+		ACB3C66F2923740500CAF985 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3C66D29235EFC00CAF985 /* LoginModel.swift */,
+				ACB3C6702923741E00CAF985 /* ResponseModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC9C2A8C2921FDFE001FB662 /* Build configuration list for PBXNativeTarget "DSOManagementProject" */;
 			buildPhases = (
+				0D7610F4FABA1D90A4C6BDE0 /* [CP] Check Pods Manifest.lock */,
 				AC9C2A712921FDFC001FB662 /* Sources */,
 				AC9C2A722921FDFC001FB662 /* Frameworks */,
 				AC9C2A732921FDFC001FB662 /* Resources */,
+				2A4E9B3038EAB2AB6B1FD55C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,21 +169,65 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9C2A882921FDFE001FB662 /* LaunchScreen.storyboard in Resources */,
-				AC9C2A852921FDFE001FB662 /* Assets.xcassets in Resources */,
+				ACE9D3822922171900C39F66 /* Assets.xcassets in Resources */,
 				AC9C2A802921FDFC001FB662 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D7610F4FABA1D90A4C6BDE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSOManagementProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A4E9B3038EAB2AB6B1FD55C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSOManagementProject/Pods-DSOManagementProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSOManagementProject/Pods-DSOManagementProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSOManagementProject/Pods-DSOManagementProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC9C2A712921FDFC001FB662 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9C2A7D2921FDFC001FB662 /* ViewController.swift in Sources */,
+				ACB3C66E29235EFC00CAF985 /* LoginModel.swift in Sources */,
+				AC9C2A7D2921FDFC001FB662 /* LoginViewController.swift in Sources */,
 				AC9C2A832921FDFC001FB662 /* DSOManagementProject.xcdatamodeld in Sources */,
 				AC9C2A792921FDFC001FB662 /* AppDelegate.swift in Sources */,
+				ACB3C6712923741E00CAF985 /* ResponseModel.swift in Sources */,
 				AC9C2A7B2921FDFC001FB662 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +372,7 @@
 		};
 		AC9C2A8D2921FDFE001FB662 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B1D5E77E9EAC75B9B63FF1 /* Pods-DSOManagementProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,7 +384,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,12 +396,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		AC9C2A8E2921FDFE001FB662 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B4E42D8B6F84932CF765EF /* Pods-DSOManagementProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -327,7 +414,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,7 +426,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
