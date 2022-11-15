@@ -33,7 +33,7 @@ class LoginViewController: UIViewController {
                 self.token = resp.response
             }
             else {
-                print("Login failed Error:\(response.error)")
+                print("Login failed   Error:\(response.error)")
             }
                     
         }
