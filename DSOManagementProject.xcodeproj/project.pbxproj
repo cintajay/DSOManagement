@@ -16,6 +16,8 @@
 		AC9C2A882921FDFE001FB662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9C2A862921FDFE001FB662 /* LaunchScreen.storyboard */; };
 		ACB3C66E29235EFC00CAF985 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C66D29235EFC00CAF985 /* LoginModel.swift */; };
 		ACB3C6712923741E00CAF985 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C6702923741E00CAF985 /* ResponseModel.swift */; };
+		ACB3C6732923BB0F00CAF985 /* ValidationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C6722923BB0F00CAF985 /* ValidationConstants.swift */; };
+		ACB3C6752923BD0700CAF985 /* EmailValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C6742923BD0700CAF985 /* EmailValidation.swift */; };
 		ACE9D3822922171900C39F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE9D3812922171900C39F66 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		AC9C2A892921FDFE001FB662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB3C66D29235EFC00CAF985 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		ACB3C6702923741E00CAF985 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		ACB3C6722923BB0F00CAF985 /* ValidationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationConstants.swift; sourceTree = "<group>"; };
+		ACB3C6742923BD0700CAF985 /* EmailValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidation.swift; sourceTree = "<group>"; };
 		ACE9D3812922171900C39F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Training Cinta/Test2/Test2/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +99,8 @@
 				AC9C2A812921FDFC001FB662 /* DSOManagementProject.xcdatamodeld */,
 				ACE9D3812922171900C39F66 /* Assets.xcassets */,
 				ACB3C66F2923740500CAF985 /* Models */,
+				ACB3C6722923BB0F00CAF985 /* ValidationConstants.swift */,
+				ACB3C6742923BD0700CAF985 /* EmailValidation.swift */,
 			);
 			path = DSOManagementProject;
 			sourceTree = "<group>";
@@ -226,8 +232,10 @@
 				ACB3C66E29235EFC00CAF985 /* LoginModel.swift in Sources */,
 				AC9C2A7D2921FDFC001FB662 /* LoginViewController.swift in Sources */,
 				AC9C2A832921FDFC001FB662 /* DSOManagementProject.xcdatamodeld in Sources */,
+				ACB3C6752923BD0700CAF985 /* EmailValidation.swift in Sources */,
 				AC9C2A792921FDFC001FB662 /* AppDelegate.swift in Sources */,
 				ACB3C6712923741E00CAF985 /* ResponseModel.swift in Sources */,
+				ACB3C6732923BB0F00CAF985 /* ValidationConstants.swift in Sources */,
 				AC9C2A7B2921FDFC001FB662 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
