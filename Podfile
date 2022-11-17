@@ -7,5 +7,6 @@ target 'DSOManagementProject' do
 
   # Pods for DSOManagementProject
     pod 'Alamofire'
+    pod 'IQKeyboardManagerSwift'
 
 end

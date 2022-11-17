@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4AC8AC6AE7EE5D5E0750B584 /* Pods_DSOManagementProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8857E62ACCB3C68C85B01E66 /* Pods_DSOManagementProject.framework */; };
+		AC0341952924A62400D8364F /* urlConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0341942924A62400D8364F /* urlConstants.swift */; };
 		AC9C2A792921FDFC001FB662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C2A782921FDFC001FB662 /* AppDelegate.swift */; };
 		AC9C2A7B2921FDFC001FB662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C2A7A2921FDFC001FB662 /* SceneDelegate.swift */; };
 		AC9C2A7D2921FDFC001FB662 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C2A7C2921FDFC001FB662 /* LoginViewController.swift */; };
@@ -25,6 +26,7 @@
 		09B4E42D8B6F84932CF765EF /* Pods-DSOManagementProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSOManagementProject.release.xcconfig"; path = "Target Support Files/Pods-DSOManagementProject/Pods-DSOManagementProject.release.xcconfig"; sourceTree = "<group>"; };
 		8857E62ACCB3C68C85B01E66 /* Pods_DSOManagementProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSOManagementProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B1D5E77E9EAC75B9B63FF1 /* Pods-DSOManagementProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSOManagementProject.debug.xcconfig"; path = "Target Support Files/Pods-DSOManagementProject/Pods-DSOManagementProject.debug.xcconfig"; sourceTree = "<group>"; };
+		AC0341942924A62400D8364F /* urlConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = urlConstants.swift; sourceTree = "<group>"; };
 		AC9C2A752921FDFC001FB662 /* DSOManagementProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSOManagementProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9C2A782921FDFC001FB662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9C2A7A2921FDFC001FB662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		AC0341922924A5CE00D8364F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3C6722923BB0F00CAF985 /* ValidationConstants.swift */,
+				AC0341942924A62400D8364F /* urlConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		AC9C2A6C2921FDFC001FB662 = {
 			isa = PBXGroup;
 			children = (
@@ -92,14 +103,13 @@
 			children = (
 				AC9C2A782921FDFC001FB662 /* AppDelegate.swift */,
 				AC9C2A7A2921FDFC001FB662 /* SceneDelegate.swift */,
-				AC9C2A7C2921FDFC001FB662 /* LoginViewController.swift */,
-				AC9C2A7E2921FDFC001FB662 /* Main.storyboard */,
+				ACC445072925FCCE00F47063 /* DSOLogin */,
 				AC9C2A862921FDFE001FB662 /* LaunchScreen.storyboard */,
 				AC9C2A892921FDFE001FB662 /* Info.plist */,
 				AC9C2A812921FDFC001FB662 /* DSOManagementProject.xcdatamodeld */,
 				ACE9D3812922171900C39F66 /* Assets.xcassets */,
+				AC0341922924A5CE00D8364F /* Constants */,
 				ACB3C66F2923740500CAF985 /* Models */,
-				ACB3C6722923BB0F00CAF985 /* ValidationConstants.swift */,
 				ACB3C6742923BD0700CAF985 /* EmailValidation.swift */,
 			);
 			path = DSOManagementProject;
@@ -112,6 +122,15 @@
 				ACB3C6702923741E00CAF985 /* ResponseModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		ACC445072925FCCE00F47063 /* DSOLogin */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C2A7E2921FDFC001FB662 /* Main.storyboard */,
+				AC9C2A7C2921FDFC001FB662 /* LoginViewController.swift */,
+			);
+			path = DSOLogin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +251,7 @@
 				ACB3C66E29235EFC00CAF985 /* LoginModel.swift in Sources */,
 				AC9C2A7D2921FDFC001FB662 /* LoginViewController.swift in Sources */,
 				AC9C2A832921FDFC001FB662 /* DSOManagementProject.xcdatamodeld in Sources */,
+				AC0341952924A62400D8364F /* urlConstants.swift in Sources */,
 				ACB3C6752923BD0700CAF985 /* EmailValidation.swift in Sources */,
 				AC9C2A792921FDFC001FB662 /* AppDelegate.swift in Sources */,
 				ACB3C6712923741E00CAF985 /* ResponseModel.swift in Sources */,
@@ -393,7 +413,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -423,7 +443,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
