@@ -19,6 +19,7 @@
 		ACB3C6712923741E00CAF985 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C6702923741E00CAF985 /* ResponseModel.swift */; };
 		ACB3C6732923BB0F00CAF985 /* ValidationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C6722923BB0F00CAF985 /* ValidationConstants.swift */; };
 		ACB3C6752923BD0700CAF985 /* EmailValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C6742923BD0700CAF985 /* EmailValidation.swift */; };
+		ACC4450D292608A800F47063 /* DSOSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4450C292608A800F47063 /* DSOSelectionViewController.swift */; };
 		ACE9D3822922171900C39F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE9D3812922171900C39F66 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		ACB3C6702923741E00CAF985 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
 		ACB3C6722923BB0F00CAF985 /* ValidationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationConstants.swift; sourceTree = "<group>"; };
 		ACB3C6742923BD0700CAF985 /* EmailValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidation.swift; sourceTree = "<group>"; };
+		ACC4450C292608A800F47063 /* DSOSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSOSelectionViewController.swift; sourceTree = "<group>"; };
 		ACE9D3812922171900C39F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Training Cinta/Test2/Test2/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 			children = (
 				AC9C2A7E2921FDFC001FB662 /* Main.storyboard */,
 				AC9C2A7C2921FDFC001FB662 /* LoginViewController.swift */,
+				ACC4450C292608A800F47063 /* DSOSelectionViewController.swift */,
 			);
 			path = DSOLogin;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				AC0341952924A62400D8364F /* urlConstants.swift in Sources */,
 				ACB3C6752923BD0700CAF985 /* EmailValidation.swift in Sources */,
 				AC9C2A792921FDFC001FB662 /* AppDelegate.swift in Sources */,
+				ACC4450D292608A800F47063 /* DSOSelectionViewController.swift in Sources */,
 				ACB3C6712923741E00CAF985 /* ResponseModel.swift in Sources */,
 				ACB3C6732923BB0F00CAF985 /* ValidationConstants.swift in Sources */,
 				AC9C2A7B2921FDFC001FB662 /* SceneDelegate.swift in Sources */,

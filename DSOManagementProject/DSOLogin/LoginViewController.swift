@@ -111,6 +111,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 print(resp.response)
                 self.token = resp.response
                 //self.showNextScreen()
+                self.performSegue(withIdentifier: "goToDSOSelection", sender: self)
             }
             else {
                 print("Login failed Error:\(response.error)")
@@ -118,7 +119,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
-   
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        // Get the new view controller using segue.destination.
+//        // Pass the selected object to the new view controller.
+//    }
     
 
 }
